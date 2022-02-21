@@ -23,6 +23,8 @@ const Dashboard = () => {
                 <h1>Welcome <span className='user_name'>{user.name}</span></h1>{" "}
                 <button className='logout_btn' onClick={(e) => handleLogout(e)}>Logout</button> 
             </div>
+
+            <div className="App">
             <motion.h1
         initial={{ y: -200 }}
         animate={{ y: 0 }}
@@ -39,6 +41,8 @@ const Dashboard = () => {
         <Todos />
         <DisplayTodos />
       </motion.div>
+            </div>
+            
       </div>
   
     
