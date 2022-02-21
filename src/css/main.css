@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+
+html {
+  line-height: 1.15;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "RocknRoll One", sans-serif;
+}
+
+body {
+    background: linear-gradient(
+        190deg,
+        rgb(134, 123, 205) 0%,
+        rgb(106, 90, 171) 100%
+      );
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      color: #222;
+      overflow: hidden;
+}
+
+/* Login form css */
+
+.login{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login_form > h1{
+    display: inline;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #e1ebfd;
+    text-shadow: 0 0 5px #433aa8, 3px -1px 5px #271c6c;
+}
+
+.login_form > input{
+    min-width: 380px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0 , 0.24);
+    border-radius: 2px;
+}
+
+.submit_btn{
+    padding:   17px 30px;
+    margin-top: 10px;
+    background-color: #271c6c;
+    border: 2px solid #e1ebfd;
+    box-shadow: 2px 4px 10px #271c6c;
+    border-radius: 3px;
+    color: #e1ebfd;
+
+}
+
+.user_name{
+    color: #010002;
+}
+
+.logout{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    /* height: 100vh; */
+}
+
+.logout > .logout_btn{
+    float: right;
+}
