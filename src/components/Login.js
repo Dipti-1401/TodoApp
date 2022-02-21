@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { login } from '../feature/userSlice';
+import { login } from '../redux/reducer';
 import { useDispatch } from 'react-redux';
 
 const Login = () => {
